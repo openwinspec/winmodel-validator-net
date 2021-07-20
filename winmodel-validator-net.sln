@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "winspecvalidator", "winspecvalidator\winspecvalidator.csproj", "{82EA08AB-2D47-4E0D-B7F7-5FE1D3FEED62}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CF0048BF-BDF1-43F7-8B31-91DC763D816A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "winspecvalidator", "src\winspecvalidator\winspecvalidator.csproj", "{44D3D0FC-BDA2-4F4B-BA7B-6E0DE408C976}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{82EA08AB-2D47-4E0D-B7F7-5FE1D3FEED62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82EA08AB-2D47-4E0D-B7F7-5FE1D3FEED62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82EA08AB-2D47-4E0D-B7F7-5FE1D3FEED62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82EA08AB-2D47-4E0D-B7F7-5FE1D3FEED62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D3D0FC-BDA2-4F4B-BA7B-6E0DE408C976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D3D0FC-BDA2-4F4B-BA7B-6E0DE408C976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D3D0FC-BDA2-4F4B-BA7B-6E0DE408C976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D3D0FC-BDA2-4F4B-BA7B-6E0DE408C976}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44D3D0FC-BDA2-4F4B-BA7B-6E0DE408C976} = {CF0048BF-BDF1-43F7-8B31-91DC763D816A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C7B4FB5-52CE-4E35-AA03-E8AC0330680E}
