@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWinSpec.Validation", "src\OpenWinSpec.Validation\OpenWinSpec.Validation.csproj", "{6DF0782E-7F14-47EE-84F0-079D6074F7F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenWinSpec.Validation", "src\OpenWinSpec.Validation\OpenWinSpec.Validation.csproj", "{6DF0782E-7F14-47EE-84F0-079D6074F7F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F8DEBA0D-6051-4FBD-B43D-056CC61505D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenWinSpec.Validation.Tests", "tests\OpenWinSpec.Validation.Tests\OpenWinSpec.Validation.Tests.csproj", "{102AC686-0090-475D-A907-E51BAFA544DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{6DF0782E-7F14-47EE-84F0-079D6074F7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DF0782E-7F14-47EE-84F0-079D6074F7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DF0782E-7F14-47EE-84F0-079D6074F7F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102AC686-0090-475D-A907-E51BAFA544DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102AC686-0090-475D-A907-E51BAFA544DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102AC686-0090-475D-A907-E51BAFA544DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102AC686-0090-475D-A907-E51BAFA544DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{102AC686-0090-475D-A907-E51BAFA544DD} = {F8DEBA0D-6051-4FBD-B43D-056CC61505D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F528DED-087B-455A-A2C5-C3E6ACF86DBB}
